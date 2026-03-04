@@ -1,0 +1,40 @@
+
+# Bindings
+
+Bindings connect SAPUI5 view elements to model data, allowing changes in the model to be reflected in the view element and vice versa.
+
+The OData V4 model supports the following types of binding:
+
+-   **List bindings**, which represent a collection \(of OData entities, complex or primitive types\) such as `/SalesOrderList` \(see the [sap.ui.model.odata.v4.ODataListBinding](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding) API documentation in the Demo Kit\)
+
+-   **Context bindings**, which represent a single entity such as `/SalesOrderList('0500000000')` or a structural property with complex type \(see the [sap.ui.model.odata.v4.ODataContextBinding](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataContextBinding) API documentation in the Demo Kit\)
+
+-   **Property bindings**, which represent a single, primitive type property in an entity or complex type such as `/ProductList('HT-1000')/Name` \(see the [sap.ui.model.odata.v4.ODataPropertyBinding](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding) API documentation in the Demo Kit\)
+
+
+**Related Information**  
+
+
+[sap.ui.model.odata.v4.ODataListBinding](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding)
+
+[sap.ui.model.odata.v4.ODataContextBinding](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataContextBinding)
+
+[sap.ui.model.odata.v4.ODataPropertyBinding](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding)
+
+[Sample: Sales Orders](https://ui5.sap.com/#/sample/sap.ui.core.sample.odata.v4.SalesOrders/code/Main.controller.js)
+
+[Binding Events](binding-events-1a010d3.md "The OData V4 model supports certain events intended for applications, and others that are to be used for controls, as outlined in this section.")
+
+[Batch Control](batch-control-74142a3.md "OData V4 allows you to group multiple operations into a single HTTP request payload, as described in the official OData V4 specification Part 1, Batch Requests (see the link under Related Information for more details).")
+
+[Filtering](filtering-5338bd1.md "The OData V4 Model supports server-side filtering on lists.")
+
+[Sorting](sorting-d2ce3f5.md "The OData V4 model supports server-side sorting on lists.")
+
+[OData Version 4.01 Part 2: URL Conventions, 4 Resource Path](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part2-url-conventions.html#_Toc31360928)
+
+[OData Version 4.01 Part 2: URL Conventions, 5 Query Options](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part2-url-conventions.html#_Toc31360954)
+
+[OData Version 4.01 Part 2: URL Conventions, 5.2 Custom Query Options](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part2-url-conventions.html#_Toc31361050)
+
+[OData Common Schema Definition Language \(CSDL\) XML Representation Version 4.01, 15.2 Simple Identifier](https://docs.oasis-open.org/odata/odata-csdl-xml/v4.01/odata-csdl-xml-v4.01.html#_Toc38530448)
